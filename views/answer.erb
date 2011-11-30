@@ -1,0 +1,10 @@
+<% if correct %>
+  <h3> Correct </h3>
+<% else %>
+  <h3> Incorrect </h3>
+  The correct answer was <%= answer %>
+  <p>
+<% end %>
+Score: <%= score%>
+<p>
+<a href="/quiz">Next Question</a>
